@@ -48,7 +48,7 @@ const Navbar = () => {
                 className="flex items-center"
               >
                 <img
-                  src="https://interswitchgroup.com/assets/images/home/idea.svg"
+                  src="https://interswitchgroup.com/assets/images/home/nigeria.png"
                   alt="Contact"
                   className="w-8 h-8"
                 />
@@ -60,7 +60,7 @@ const Navbar = () => {
                   <ul className="py-2">
                     <li className="flex items-center px-4 py-2 hover:bg-gray-100">
                       <img
-                        src="https://interswitchgroup.com/assets/images/home/idea.svg"
+                        src="https://interswitchgroup.com/assets/images/home/kenya.png"
                         alt="Option 1"
                         className="w-6 h-6 mr-3"
                       />
@@ -68,7 +68,7 @@ const Navbar = () => {
                     </li>
                     <li className="flex items-center px-4 py-2 hover:bg-gray-100">
                       <img
-                        src="https://interswitchgroup.com/assets/images/home/idea.svg"
+                        src="https://interswitchgroup.com/assets/images/home/uganda.png"
                         alt="Option 2"
                         className="w-6 h-6 mr-3"
                       />
