@@ -1,10 +1,8 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
-import Solutions from './components/Solutions';
+import Objectives from './components/Objectives';
 import Stats from './components/Stats';
-import Testimonials from './components/Testimonials';
-import Partners from './components/Partners';
 import Footer from './components/Footer';
 import IdeaSection from './components/IdeaSection';
 import Contact from './components/Contact';
@@ -16,13 +14,11 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
-      <Partners />
-      <Solutions />
       <Stats />
+      <Objectives/>
       <IdeaSection />
-      <Contact/>
       <SecuritySection />
-      <Testimonials />
+      <Contact />
       <Footer />
     </div>
   );

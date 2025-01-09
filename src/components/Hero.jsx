@@ -1,33 +1,37 @@
-import {  ArrowDown } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <div className=" text-blue-950 pt-10">
+    <div className="text-blue-950 pt-6 relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-xs md:text-6xl mb-6 mt-16 font-semibold">
-              The Gateway To Africa Payment Ecosystem
+            <h1 className="text-2xl md:text-7xl mb-6 mt-16 font- text-blue-950">
+              The Gateway To Africa&apos;s Payment Ecosystem
             </h1>
             <p className="text-xl md:text-xl mb-8 text-black-200">
               We create and sustain a payment ecosystem that helps commmerce evolve, businesses grow and individuals thrive.
             </p>
             <div className="space-x-4">
-              <button className="bg-white text-[#0f0f0f] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
-              <a href="#" className="text-[#303131] font-semibold flex items-center group">
-                Learn More <ArrowDown size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
+              <a href="#" className="inline-flex items-center bg-blue-950 text-white px-8 py-3 mb-4 rounded-full font-semibold hover:bg-blue-900 transition group">
+                Learn More <ArrowDown size={16} className="ml-2 group-hover:translate-y-1 transition-transform text-white" />
               </a>
-              </button>
-              {/* <button className="border-2 border-white px-8 py-3 rounded-full font-semibold hover:bg-white/10 transition">
-                Watch Video
-              </button> */}
             </div>
           </div>
           <div className="relative">
+            <div 
+              className="absolute -left-8 -bottom-8 w-full h-full z-0"
+              style={{
+                backgroundImage: 'url(https://interswitchgroup.com/assets/images/home/dots.svg)',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'bottom left',
+                backgroundSize: '70% 70%'
+              }}
+            />
             <img
               src="https://interswitchgroup.com/assets/images/home/video-min.jpg"
               alt="Digital Payments in Africa"
-              className="rounded-2xl shadow-2xl mt-4"
+              className="rounded-2xl shadow-2xl mt-4 relative z-10"
             />
           </div>
         </div>

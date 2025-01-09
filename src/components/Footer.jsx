@@ -12,22 +12,22 @@ const Footer = () => {
               className="h-8 mb-6"
             />
             <p className="text-gray-300">
-              Africas leading integrated payments and digital commerce company
+              Africa&apos;s leading integrated payments and digital commerce company
             </p>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Solutions</h4>
+            <h4 className="text-lg font-semibold mb-4 uppercase">About Us</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-white">Payment Gateway</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white">Business Solutions</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white">About Us</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white">Our Brands</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white">Financial Services</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white">Digital Infrastructure</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Company</h4>
+            <h4 className="text-lg font-semibold mb-4 uppercase">EveryDay Payment For Individuals</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-300 hover:text-white">About Us</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white">Careers</a></li>

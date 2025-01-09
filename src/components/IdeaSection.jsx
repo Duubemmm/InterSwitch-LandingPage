@@ -6,16 +6,16 @@ const IdeaSection = () => {
           <img
             src="https://interswitchgroup.com/assets/images/home/idea.svg"
             alt="Idea Illustration"
-            className="w-32 h-32 mx-auto mb-6"
+            className="w-32 h-32 mb-6"
           />
   
           {/* Write-up Section */}
           <div>
-            <p className="text-2xl font-semibold text-gray-900">
-              We create solutions that enable individuals and communities prosper across Africa.
+            <p className="text-4xl font-semibold text-gray-700 text-justify">
+              We create solutions that enable<br></br> individuals and communities<br></br>prosper across Africa.
             </p>
-            <p className="text-lg text-gray-700 mt-4">
-              We see an Africa where digital payments are a seamless part of everyday life.
+            <p className="text-lg text-gray-500 mt-4 -ml-1 w-2/3">
+              We see an Africa where digital payments are a seamless part of <br></br>everyday life.
             </p>
           </div>
         </div>

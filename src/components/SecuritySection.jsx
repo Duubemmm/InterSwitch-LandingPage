@@ -1,4 +1,4 @@
-import { CheckCircle } from "lucide-react";
+import { Check } from "lucide-react";
 
 const SecuritySection = () => {
   return (
@@ -9,13 +9,13 @@ const SecuritySection = () => {
           <img
             src="https://interswitchgroup.com/assets/images/home/certifications.svg"
             alt="Certifications"
-            className="w-64 h-64 md:w-80 md:h-80 mx-auto animate-float"
+            className="w-100 h-180 md:w-80 md:h-80 mx-auto animate-float"
           />
         </div>
 
         {/* Write-up Section */}
         <div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl font-bold text-gray-900 mb-6">
             Enterprise-grade security
           </h2>
           <p className="text-lg text-gray-700 mb-8">
@@ -26,19 +26,19 @@ const SecuritySection = () => {
           {/* List of Features */}
           <ul className="space-y-4">
             <li className="flex items-center gap-4 text-gray-700 text-lg">
-              <CheckCircle className="text-green-500 w-6 h-6" />
+              <Check className="text-blue-500 w-6 h-6" />
               Two-Factor Authentication
             </li>
             <li className="flex items-center gap-4 text-gray-700 text-lg">
-              <CheckCircle className="text-green-500 w-6 h-6" />
+              <Check className="text-blue-500 w-6 h-6" />
               NDPR Compliant
             </li>
             <li className="flex items-center gap-4 text-gray-700 text-lg">
-              <CheckCircle className="text-green-500 w-6 h-6" />
+              <Check className="text-blue-500 w-6 h-6" />
               Guaranteed Transaction Security
             </li>
             <li className="flex items-center gap-4 text-gray-700 text-lg">
-              <CheckCircle className="text-green-500 w-6 h-6" />
+              <Check className="text-blue-500 w-6 h-6" />
               Secure Cloud Option
             </li>
           </ul>

@@ -64,7 +64,7 @@ const Navbar = () => {
                         alt="Option 1"
                         className="w-6 h-6 mr-3"
                       />
-                      <span>Contact Option 1</span>
+                      <span></span>
                     </li>
                     <li className="flex items-center px-4 py-2 hover:bg-gray-100">
                       <img
@@ -72,7 +72,7 @@ const Navbar = () => {
                         alt="Option 2"
                         className="w-6 h-6 mr-3"
                       />
-                      <span>Contact Option 2</span>
+                      <span></span>
                     </li>
                   </ul>
                 </div>
