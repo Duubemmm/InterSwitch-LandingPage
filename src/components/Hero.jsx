@@ -13,7 +13,7 @@ const Hero = () => {
               We create and sustain a payment ecosystem that helps commmerce evolve, businesses grow and individuals thrive.
             </p>
             <div className="space-x-4">
-              <a href="#" className="inline-flex items-center bg-blue-950 text-white px-8 py-3 mb-4 rounded-full font-semibold hover:bg-blue-900 transition group">
+              <a href="#" className="inline-flex items-center bg-blue-950 text-white px-8 py-3 mb-10 rounded-full font-semibold hover:bg-blue-900 transition group">
                 Learn More <ArrowDown size={16} className="ml-2 group-hover:translate-y-1 transition-transform text-white" />
               </a>
             </div>
